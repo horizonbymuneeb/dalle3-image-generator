@@ -1,0 +1,33 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Directories
+.ipynb_checkpoints
+
+# Files
+*.sqlite
+*.sqlite-journal
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.lock
+*.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
